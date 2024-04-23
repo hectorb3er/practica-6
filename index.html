@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERTIDOR DE UNIDADES DE TIEMPO</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
+<h1>Convertidor de Unidades de Tiempo</h1>
+<div class="contenedor">
+    <div class="contenido">
+        <input type="number" id="valor" placeholder="Ingrese el valor">
+        <select id="unidad_origen" placeholder="Unidad de Origen">
+            <option value="segundos">Segundos</option>
+            <option value="minutos">Minutos</option>
+            <option value="horas">Horas</option>
+            <option value="dias">Dias</option>
+  </select>
+  <select id="unidad_destino" placeholder="Unidad de destino">
+    <option value="segundos">Segundos</option>
+    <option value="minutos">Minutos</option>
+    <option value="horas">Horas</option>
+    <option value="dias">Dias</option>
+  </select>
+      <button onclick="convertir()">Convertir</button>
+        <div id="resultadoContenedor">
+            <p id="resultado"></p>
+
+        </div>
+
+    </div>
+
+</div>

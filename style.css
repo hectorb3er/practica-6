@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(45deg,#0620a5b9,#be6804);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.contenedor{
+    background-image: url("reloj.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0,0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+#reslutadoContenedor{
+    background-color: azure(
+        239,
+        242,
+        243
+
+    );
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
